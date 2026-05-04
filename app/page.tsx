@@ -1,10 +1,12 @@
-import Hero from "./components/hero";
 
 
+import GooeySearch from "./components/gooey-filter";
 export default function Home() {
   return (
 
-    <Hero />
+    // <RepeatingLinearGradient ----<Hero />
+
+    <GooeySearch  />
 
   );
 }
